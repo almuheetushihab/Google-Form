@@ -14,22 +14,45 @@
 
 <body>
     <div class="container">
-        <div class="logo">
-            <span class="logos">Google</span>
-        </div>
-        <div class="form-box">
-            <h1>sing in</h1>
-            <span>Use your Google Account</span>
-            <form>
-                <div class="input-box">
-                    <input type="email" name="email" id="email-field" class="input-field" required autofocus
-                        aria-autocomplete="off">
-                </div>
-            </form>
-        </div>
+      <div class="logo">
+        <img src="https://pngimg.com/uploads/google/google_PNG19644.png" alt="logo.png" />
+      </div>
+      <div class="form-box">
+        <h1>Sign in</h1>
+        <span>Use your Google Account</span>
+        <form>
+          <div class="input-box">
+            <input
+              type="email"
+              name="email"
+              id="email-field"
+              class="input-field"
+              required
+              autofocus
+              autocomplete="off"
+            />
+            <label for="email-field" class="placeholder">Email or phone</label>
+          </div>
+          <div class="input-box">
+            <input
+              type="password"
+              name="password"
+              id="password-field"
+              class="input-field"
+              required
+            />
+            <label for="password-field" class="placeholder"
+              >Enter your password</label
+            >
+          </div>
+          <a href="#" class="forgot">Forgot email?</a>
+          <div class="buttons">
+            <a href="#" class="create-account">Create account</a>
+            <button class="sign-in">Next</button>
+          </div>
+        </form>
+      </div>
     </div>
-
-    <script src="main.js"></script>
-</body>
+  </body>
 
 </html>
